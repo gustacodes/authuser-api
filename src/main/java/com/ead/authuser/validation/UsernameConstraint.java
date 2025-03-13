@@ -6,7 +6,7 @@ import jakarta.validation.Payload;
 import java.lang.annotation.*;
 
 @Documented
-@Constraint( validatedBy = UsernameConstraintImpl.class)
+@Constraint(validatedBy = UsernameConstraintImpl.class)
 @Target({ElementType.METHOD, ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface UsernameConstraint {
