@@ -15,3 +15,13 @@ spring:
     properties:
       hibernate:
         show_sql: true
+logging:
+  level:
+    com.ead: TRACE
+    root: INFO
+    org.springframework.wen: DEBUG
+    org.hibernate: INFO
+ead:
+  api:
+    url:
+      course: 'http://localhost:8082'
